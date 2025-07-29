@@ -8,7 +8,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
             Devin Demo App
           </h1>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-800 mb-8">
             A simple user management application to demonstrate behavioral testing capabilities.
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
             Go to User Dashboard
           </Link>
           
-          <div className="text-center text-sm text-gray-500">
+          <div className="text-center text-sm text-gray-700">
             This app includes functionality to add and delete users, perfect for testing automated migrations.
           </div>
         </div>

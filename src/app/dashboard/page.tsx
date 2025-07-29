@@ -50,11 +50,11 @@ const Dashboard = () => {
             ← Back to Home
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">User Dashboard</h1>
-          <p className="text-gray-600">Manage users in your application</p>
+          <p className="text-gray-800">Manage users in your application</p>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h2 className="text-xl font-semibold mb-4">Add New User</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900">Add New User</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <input
               type="text"
@@ -94,7 +94,7 @@ const Dashboard = () => {
 
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-xl font-semibold">Users ({users.length})</h2>
+            <h2 className="text-xl font-semibold text-gray-900">Users ({users.length})</h2>
             {users.length > 0 && (
               <button 
                 onClick={clearAllUsers}
@@ -107,7 +107,7 @@ const Dashboard = () => {
           </div>
           
           {users.length === 0 ? (
-            <div className="text-center py-8 text-gray-500" data-testid="no-users-message">
+            <div className="text-center py-8 text-gray-700" data-testid="no-users-message">
               No users added yet. Add your first user above!
             </div>
           ) : (
