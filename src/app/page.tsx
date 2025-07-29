@@ -21,6 +21,17 @@ export default function Home() {
             Go to User Dashboard
           </Link>
           
+          <div className="bg-white rounded-lg p-4 shadow-sm">
+            <h3 className="text-sm font-medium text-gray-900 mb-2">Features</h3>
+            <ul className="text-xs text-gray-700 space-y-1">
+              <li>• Add users with validation</li>
+              <li>• Search and filter users</li>
+              <li>• Delete with confirmation</li>
+              <li>• Role-based badges</li>
+              <li>• Responsive design</li>
+            </ul>
+          </div>
+          
           <div className="text-center text-sm text-gray-700">
             This app includes functionality to add and delete users, perfect for testing automated migrations.
           </div>

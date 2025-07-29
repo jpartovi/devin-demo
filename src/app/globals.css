@@ -27,18 +27,18 @@ body {
 
 /* Fix placeholder text visibility */
 ::placeholder {
-  color: #6b7280 !important; /* text-gray-500 */
+  color: #4b5563 !important; /* text-gray-600 - darker for better visibility */
   opacity: 1;
 }
 
 /* For webkit browsers */
 ::-webkit-input-placeholder {
-  color: #6b7280 !important;
+  color: #4b5563 !important;
   opacity: 1;
 }
 
 /* For Firefox */
 ::-moz-placeholder {
-  color: #6b7280 !important;
+  color: #4b5563 !important;
   opacity: 1;
 }
